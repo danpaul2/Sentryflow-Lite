@@ -1,0 +1,339 @@
+2026-03-04 18:59:44 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-04 19:00:11 - sentryflow - INFO - User created | username=test_user | role=employee | user_id=9
+2026-03-04 19:00:11 - sentryflow - INFO - New user created | username=test_user | role=employee
+2026-03-04 19:00:11 - sentryflow - INFO - Processing prompt | username=test_user | prompt_length=15
+2026-03-04 19:00:11 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=15
+2026-03-04 19:15:12 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-04 19:30:20 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-04 19:30:20 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-04 19:30:20 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user | exc_info=True
+2026-03-04 19:31:56 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-04 19:31:56 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-04 19:31:56 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user | exc_info=True
+2026-03-04 19:36:17 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-04 19:36:17 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-04 19:36:17 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-04 19:36:21 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-04 19:36:21 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-04 19:36:21 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-04 22:01:00 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-04 22:03:39 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-04 22:03:39 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-04 22:03:39 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-04 22:04:41 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-04 22:04:41 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-04 22:06:07 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-04 22:06:07 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-04 22:06:07 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-04 22:06:11 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-04 22:06:11 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-04 22:06:14 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-04 22:06:14 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-04 22:06:14 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-04 22:06:19 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-04 22:06:19 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:31:51 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-05 20:32:03 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-05 20:32:03 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:32:03 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user
+2026-03-05 20:32:04 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-05 20:32:04 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:32:04 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user
+2026-03-05 20:32:07 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-05 20:32:07 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-05 20:32:07 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-05 20:45:20 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-05 20:46:22 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-05 20:46:22 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:46:22 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user
+2026-03-05 20:46:26 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-05 20:46:26 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-05 20:46:26 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-05 20:46:29 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-05 20:46:29 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-05 20:46:29 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-05 20:46:32 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=25
+2026-03-05 20:46:32 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-05 20:46:32 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-05 20:48:10 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-05 20:48:45 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-05 20:57:56 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=54
+2026-03-05 20:57:56 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:57:56 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user demo_user
+2026-03-05 20:58:37 - sentryflow - INFO - User created | username=user1 | role=admin | user_id=10
+2026-03-05 20:58:37 - sentryflow - INFO - New user created | username=user1 | role=admin
+2026-03-05 20:58:51 - sentryflow - INFO - Processing prompt | username=user1 | prompt_length=54
+2026-03-05 20:58:51 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-05 20:58:51 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user user1
+2026-03-05 20:58:56 - sentryflow - ERROR - Failed to get connection from pool: Failed getting connection; pool exhausted
+2026-03-05 20:58:56 - sentryflow - ERROR - Error occurred: Failed getting connection; pool exhausted | Context: Database operation failed
+2026-03-05 20:58:56 - sentryflow - ERROR - Failed to create session: Failed getting connection; pool exhausted | user_id=10
+2026-03-05 20:58:56 - sentryflow - ERROR - Error occurred: Failed getting connection; pool exhausted | Context: Pipeline processing failed for user user1
+2026-03-05 20:59:00 - sentryflow - ERROR - Failed to get connection from pool: Failed getting connection; pool exhausted
+2026-03-05 20:59:00 - sentryflow - ERROR - Error occurred: Failed getting connection; pool exhausted | Context: Database operation failed
+2026-03-05 20:59:00 - sentryflow - ERROR - Failed to create session: Failed getting connection; pool exhausted | user_id=10
+2026-03-05 20:59:00 - sentryflow - ERROR - Error occurred: Failed getting connection; pool exhausted | Context: Pipeline processing failed for user user1
+2026-03-06 18:40:32 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-06 18:57:05 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-06 18:57:05 - sentryflow - INFO - Added password_hash column to users table for authentication support
+2026-03-06 18:57:05 - sentryflow - INFO - User created with password | username=signup_test_user | role=employee | user_id=11
+2026-03-06 18:59:04 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-06 18:59:32 - sentryflow - INFO - User created with password | username=user1_3 | role=admin | user_id=12
+2026-03-06 18:59:56 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=54
+2026-03-06 18:59:56 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-06 18:59:56 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user user1_3
+2026-03-06 19:01:12 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-06 19:01:12 - sentryflow - INFO - Processing prompt | username=demo_user | prompt_length=43
+2026-03-06 19:01:12 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=43
+2026-03-06 19:01:12 - sentryflow - INFO - Action processed | action_id=1 | decision=ALLOWED | risk_score=0 | user=demo_user | tool=send_email
+2026-03-06 19:01:12 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-06 19:01:12 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=1
+2026-03-06 19:01:12 - sentryflow - INFO - Action processed | action_id=1 | decision=ALLOWED | risk_score=0 | user=demo_user | tool=send_email
+2026-03-06 19:03:02 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=54
+2026-03-06 19:03:02 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-06 19:03:02 - sentryflow - ERROR - Error occurred: Unread result found | Context: Pipeline processing failed for user user1_3
+2026-03-06 19:03:21 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-06 19:03:21 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-06 19:04:09 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-06 19:04:09 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-06 19:13:57 - sentryflow - INFO - User created with password | username=doggo123 | role=admin | user_id=13
+2026-03-06 19:14:44 - sentryflow - INFO - User created with password | username=dogs52 | role=admin | user_id=14
+2026-03-06 19:19:45 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 19:19:45 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 19:19:45 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 19:20:29 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 19:20:29 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 19:20:29 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 19:20:30 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 19:20:30 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 19:20:30 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 19:20:30 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 22:06:51 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-06 22:09:10 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=54
+2026-03-06 22:09:10 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=54
+2026-03-06 22:09:10 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Email contains sensitive information: password
+2026-03-06 22:09:10 - sentryflow - INFO - Action processed | action_id=2 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-06 22:09:10 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-06 22:09:10 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=2
+2026-03-06 22:09:10 - sentryflow - INFO - Action processed | action_id=2 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-06 22:09:42 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=27
+2026-03-06 22:09:42 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=27
+2026-03-06 22:09:42 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Tool 'send_email' is not aligned with user prompt (score: 0.00)
+2026-03-06 22:09:42 - sentryflow - INFO - Action processed | action_id=3 | decision=BLOCKED | risk_score=95 | user=user1_3 | tool=send_email
+2026-03-06 22:09:42 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-06 22:09:42 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=3
+2026-03-06 22:09:42 - sentryflow - WARNING - Action blocked | action_id=3 | reason=Suspicious patterns detected: delete, data_exfil | Judge determined action is unsafe | Potential data exfiltration attempt | severity=CRITICAL | user=user1_3
+2026-03-06 22:09:42 - sentryflow - INFO - Action processed | action_id=3 | decision=BLOCKED | risk_score=95 | user=user1_3 | tool=send_email
+2026-03-06 22:09:51 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 22:09:51 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-06 22:09:51 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-06 22:09:52 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 22:09:52 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-06 22:09:52 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-06 22:09:53 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 22:09:53 - sentryflow - INFO - Agent decision made | tool=create_report | prompt_length=25
+2026-03-06 22:09:53 - sentryflow - ERROR - Tool not registered | tool_name=create_report
+2026-03-06 22:09:57 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=25
+2026-03-06 22:09:57 - sentryflow - INFO - Agent decision made | tool=search_web | prompt_length=25
+2026-03-06 22:09:57 - sentryflow - ERROR - Tool not registered | tool_name=search_web
+2026-03-06 22:18:57 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-06 22:18:57 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-06 22:49:46 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=37
+2026-03-06 22:49:46 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=37
+2026-03-06 22:49:46 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Tool 'send_email' is not aligned with user prompt (score: 0.00)
+2026-03-06 22:49:46 - sentryflow - INFO - Action processed | action_id=4 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-06 22:49:46 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-06 22:49:46 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=4
+2026-03-06 22:49:46 - sentryflow - INFO - Action processed | action_id=4 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-06 22:50:44 - sentryflow - INFO - Policy updated | tool_id=1
+2026-03-06 22:50:46 - sentryflow - INFO - Policy updated | tool_id=1
+2026-03-06 22:50:52 - sentryflow - INFO - Policy updated | tool_id=1
+2026-03-07 11:55:21 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-07 11:55:21 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-07 11:55:23 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-07 11:55:23 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-07 11:55:59 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=35
+2026-03-07 11:55:59 - sentryflow - INFO - Agent decision made | tool=send_email | prompt_length=35
+2026-03-07 11:55:59 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Tool 'send_email' is not aligned with user prompt (score: 0.00)
+2026-03-07 11:55:59 - sentryflow - INFO - Action processed | action_id=5 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-07 11:55:59 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-07 11:55:59 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=5
+2026-03-07 11:55:59 - sentryflow - INFO - Action processed | action_id=5 | decision=ESCALATED | risk_score=50 | user=user1_3 | tool=send_email
+2026-03-07 18:16:47 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-07 18:19:14 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=47
+2026-03-07 18:19:16 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_3
+2026-03-07 18:27:11 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=50
+2026-03-07 18:27:13 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_3
+2026-03-07 18:57:23 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-07 18:57:25 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_3
+2026-03-07 19:00:28 - sentryflow - INFO - User created with password | username=user1_4 | role=admin | user_id=15
+2026-03-07 19:00:57 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:00:59 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_4
+2026-03-07 19:03:58 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:04:00 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_4
+2026-03-07 19:06:42 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:06:44 - sentryflow - ERROR - Error occurred: 'response' | Context: Pipeline processing failed for user user1_4
+2026-03-07 19:09:27 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-07 19:09:54 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:10:26 - sentryflow - INFO - Agent decision made | tool=SQLite Command Line Interface | prompt_length=46
+2026-03-07 19:10:26 - sentryflow - ERROR - Tool not registered | tool_name=SQLite Command Line Interface
+2026-03-07 19:10:27 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:10:43 - sentryflow - INFO - Agent decision made | tool=SQL Query Tool | prompt_length=46
+2026-03-07 19:10:43 - sentryflow - ERROR - Tool not registered | tool_name=SQL Query Tool
+2026-03-07 19:23:11 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-07 19:23:41 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=46
+2026-03-07 19:24:15 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-07 19:24:15 - sentryflow - WARNING - Tool not registered | tool_name=drop_student_marks_table
+2026-03-07 19:24:15 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'category' in 'field list' | Context: Database operation failed
+2026-03-07 19:24:15 - sentryflow - ERROR - Failed to create tool: 1054 (42S22): Unknown column 'category' in 'field list' | tool_name=drop_student_marks_table
+2026-03-07 19:24:15 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'category' in 'field list' | Context: Pipeline processing failed for user user1_4
+2026-03-07 19:29:39 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=47
+2026-03-07 19:30:10 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=47
+2026-03-07 19:30:10 - sentryflow - WARNING - Tool not registered | tool_name=drop_student_marks_table
+2026-03-07 19:30:10 - sentryflow - INFO - Tool created | tool_id=2 | tool_name=drop_student_marks_table | category=Dynamic
+2026-03-07 19:30:10 - sentryflow - INFO - Policy created | tool_id=2 | max_risk=50 | allowed_roles=['Admin', 'Employee']
+2026-03-07 19:30:10 - sentryflow - WARNING - Role violation | username=user1_4 | role=admin | tool=drop_student_marks_table
+2026-03-07 19:30:10 - sentryflow - ERROR - Error occurred: argument of type 'NoneType' is not iterable | Context: Pipeline processing failed for user user1_4
+2026-03-07 19:30:49 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-07 19:30:49 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-07 19:30:59 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-07 19:30:59 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 03:52:42 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 03:53:32 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=48
+2026-03-08 03:54:06 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=48
+2026-03-08 03:54:06 - sentryflow - WARNING - Role violation | username=user1_4 | role=admin | tool=drop_student_marks_table
+2026-03-08 03:54:06 - sentryflow - ERROR - Error occurred: argument of type 'NoneType' is not iterable | Context: Pipeline processing failed for user user1_4
+2026-03-08 04:00:08 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:02:37 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 04:03:14 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-08 04:03:14 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=drop_student_marks_table
+2026-03-08 04:03:14 - sentryflow - ERROR - Error occurred: argument of type 'NoneType' is not iterable | Context: Pipeline processing failed for user user1_3
+2026-03-08 04:11:27 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:12:13 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=47
+2026-03-08 04:12:46 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=47
+2026-03-08 04:12:46 - sentryflow - WARNING - Role violation | username=user1_4 | role=admin | tool=drop_student_marks_table
+2026-03-08 04:12:46 - sentryflow - INFO - Action processed | action_id=23 | decision=ALLOWED | risk_score=50 | user=user1_4 | tool=drop_student_marks_table
+2026-03-08 04:12:46 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:12:46 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=23
+2026-03-08 04:12:46 - sentryflow - INFO - Action processed | action_id=23 | decision=ALLOWED | risk_score=50 | user=user1_4 | tool=drop_student_marks_table
+2026-03-08 04:17:48 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:18:12 - sentryflow - INFO - Processing prompt | username=test_user | prompt_length=45
+2026-03-08 04:18:42 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=45
+2026-03-08 04:18:42 - sentryflow - WARNING - Role violation | username=test_user | role=employee | tool=drop_student_marks_table
+2026-03-08 04:18:42 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Dangerous tool detected: drop_student_marks_table
+2026-03-08 04:18:42 - sentryflow - INFO - Action processed | action_id=24 | decision=BLOCKED | risk_score=90 | user=test_user | tool=drop_student_marks_table
+2026-03-08 04:18:42 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:18:42 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=24
+2026-03-08 04:18:42 - sentryflow - WARNING - Action blocked | action_id=24 | reason=Suspicious patterns detected: drop | Judge determined action is unsafe | User role not authorized for this tool | severity=CRITICAL | user=test_user
+2026-03-08 04:18:42 - sentryflow - INFO - Action processed | action_id=24 | decision=BLOCKED | risk_score=90 | user=test_user | tool=drop_student_marks_table
+2026-03-08 04:19:16 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:19:52 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 04:20:16 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-08 04:20:16 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=drop_student_marks_table
+2026-03-08 04:20:16 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Dangerous tool detected: drop_student_marks_table
+2026-03-08 04:20:16 - sentryflow - INFO - Action processed | action_id=25 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 04:20:16 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:20:16 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=25
+2026-03-08 04:20:16 - sentryflow - WARNING - Action blocked | action_id=25 | reason=Suspicious patterns detected: drop | Judge determined action is unsafe | User role not authorized for this tool | severity=CRITICAL | user=user1_3
+2026-03-08 04:20:16 - sentryflow - INFO - Action processed | action_id=25 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 04:32:39 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 04:33:11 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-08 04:33:11 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=drop_student_marks_table
+2026-03-08 04:33:11 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Dangerous tool detected: drop_student_marks_table
+2026-03-08 04:33:11 - sentryflow - INFO - Action processed | action_id=26 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 04:33:11 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:33:11 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=26
+2026-03-08 04:33:11 - sentryflow - WARNING - Action blocked | action_id=26 | reason=Suspicious patterns detected: drop | Judge determined action is unsafe | User role not authorized for this tool | severity=CRITICAL | user=user1_3
+2026-03-08 04:33:11 - sentryflow - INFO - Action processed | action_id=26 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 04:33:37 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=35
+2026-03-08 04:33:59 - sentryflow - INFO - Agent decision made | tool=studentUsnTable | prompt_length=35
+2026-03-08 04:33:59 - sentryflow - WARNING - Tool not registered | tool_name=studentUsnTable
+2026-03-08 04:33:59 - sentryflow - INFO - Tool created | tool_id=21 | tool_name=studentUsnTable | category=Dynamic
+2026-03-08 04:33:59 - sentryflow - INFO - Policy created | tool_id=21 | max_risk=50 | allowed_roles=['Admin', 'Employee']
+2026-03-08 04:33:59 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=studentUsnTable
+2026-03-08 04:33:59 - sentryflow - INFO - Action processed | action_id=27 | decision=ALLOWED | risk_score=40 | user=user1_3 | tool=studentUsnTable
+2026-03-08 04:33:59 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:33:59 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=27
+2026-03-08 04:33:59 - sentryflow - INFO - Action processed | action_id=27 | decision=ALLOWED | risk_score=40 | user=user1_3 | tool=studentUsnTable
+2026-03-08 04:34:52 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-08 04:34:52 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 04:37:33 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:38:56 - sentryflow - INFO - Processing prompt | username=test_user | prompt_length=47
+2026-03-08 04:39:18 - sentryflow - INFO - Agent decision made | tool=new_cloud_server_4gb_ram | prompt_length=47
+2026-03-08 04:39:18 - sentryflow - WARNING - Tool not registered | tool_name=new_cloud_server_4gb_ram
+2026-03-08 04:39:18 - sentryflow - INFO - Tool created | tool_id=22 | tool_name=new_cloud_server_4gb_ram | category=information
+2026-03-08 04:39:18 - sentryflow - INFO - Policy created | tool_id=22 | max_risk=30 | allowed_roles=['Admin', 'Employee']
+2026-03-08 04:39:18 - sentryflow - WARNING - Role violation | username=test_user | role=employee | tool=new_cloud_server_4gb_ram
+2026-03-08 04:39:18 - sentryflow - INFO - Action processed | action_id=28 | decision=ESCALATED | risk_score=40 | user=test_user | tool=new_cloud_server_4gb_ram
+2026-03-08 04:39:18 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:39:18 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=28
+2026-03-08 04:39:18 - sentryflow - INFO - Action processed | action_id=28 | decision=ESCALATED | risk_score=40 | user=test_user | tool=new_cloud_server_4gb_ram
+2026-03-08 04:39:31 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:40:50 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 04:42:13 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=27
+2026-03-08 04:42:40 - sentryflow - INFO - Agent decision made | tool=student_marks_retriever | prompt_length=27
+2026-03-08 04:42:40 - sentryflow - WARNING - Tool not registered | tool_name=student_marks_retriever
+2026-03-08 04:42:40 - sentryflow - INFO - Tool created | tool_id=23 | tool_name=student_marks_retriever | category=database
+2026-03-08 04:42:40 - sentryflow - INFO - Policy created | tool_id=23 | max_risk=30 | allowed_roles=['Admin', 'Employee']
+2026-03-08 04:42:40 - sentryflow - WARNING - Role violation | username=user1_4 | role=admin | tool=student_marks_retriever
+2026-03-08 04:42:40 - sentryflow - INFO - Action processed | action_id=29 | decision=BLOCKED | risk_score=85 | user=user1_4 | tool=student_marks_retriever
+2026-03-08 04:42:40 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:42:40 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=29
+2026-03-08 04:42:40 - sentryflow - WARNING - Action blocked | action_id=29 | reason=Suspicious patterns detected: data_exfil | User role not authorized for this tool | Potential data exfiltration attempt | severity=HIGH | user=user1_4
+2026-03-08 04:42:40 - sentryflow - INFO - Action processed | action_id=29 | decision=BLOCKED | risk_score=85 | user=user1_4 | tool=student_marks_retriever
+2026-03-08 04:43:43 - sentryflow - INFO - Processing prompt | username=user1_4 | prompt_length=27
+2026-03-08 04:43:51 - sentryflow - INFO - Agent decision made | tool=student_marks_reader | prompt_length=27
+2026-03-08 04:43:51 - sentryflow - WARNING - Tool not registered | tool_name=student_marks_reader
+2026-03-08 04:43:51 - sentryflow - INFO - Tool created | tool_id=24 | tool_name=student_marks_reader | category=database
+2026-03-08 04:43:51 - sentryflow - INFO - Policy created | tool_id=24 | max_risk=30 | allowed_roles=['Admin', 'Employee']
+2026-03-08 04:43:51 - sentryflow - WARNING - Role violation | username=user1_4 | role=admin | tool=student_marks_reader
+2026-03-08 04:43:51 - sentryflow - INFO - Action processed | action_id=30 | decision=BLOCKED | risk_score=85 | user=user1_4 | tool=student_marks_reader
+2026-03-08 04:43:51 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 04:43:51 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=30
+2026-03-08 04:43:51 - sentryflow - WARNING - Action blocked | action_id=30 | reason=Suspicious patterns detected: data_exfil | User role not authorized for this tool | Potential data exfiltration attempt | severity=HIGH | user=user1_4
+2026-03-08 04:43:51 - sentryflow - INFO - Action processed | action_id=30 | decision=BLOCKED | risk_score=85 | user=user1_4 | tool=student_marks_reader
+2026-03-08 05:08:34 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 05:57:24 - sentryflow - INFO - Database connection pool initialized | pool_size=5
+2026-03-08 07:12:11 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 07:12:13 - sentryflow - ERROR - Error occurred: Ollama error: model requires more system memory (4.5 GiB) than is available (4.2 GiB) | Context: Pipeline processing failed for user user1_3
+2026-03-08 07:12:28 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 07:13:13 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-08 07:13:13 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=drop_student_marks_table
+2026-03-08 07:13:13 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Dangerous tool detected: drop_student_marks_table
+2026-03-08 07:13:13 - sentryflow - INFO - Action processed | action_id=31 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 07:13:13 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 07:13:13 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=31
+2026-03-08 07:13:13 - sentryflow - WARNING - Action blocked | action_id=31 | reason=Suspicious patterns detected: drop | Judge determined action is unsafe | User role not authorized for this tool | severity=CRITICAL | user=user1_3
+2026-03-08 07:13:13 - sentryflow - INFO - Action processed | action_id=31 | decision=BLOCKED | risk_score=90 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 07:16:45 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-08 07:16:46 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 07:24:58 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-08 07:24:58 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 07:29:34 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=46
+2026-03-08 07:30:08 - sentryflow - INFO - Agent decision made | tool=drop_student_marks_table | prompt_length=46
+2026-03-08 07:30:08 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=drop_student_marks_table
+2026-03-08 07:30:08 - sentryflow - WARNING - Judge verdict: UNSAFE | reason=Dangerous tool detected: drop_student_marks_table
+2026-03-08 07:30:08 - sentryflow - INFO - Action processed | action_id=32 | decision=BLOCKED | risk_score=100 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 07:30:08 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 07:30:08 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=32
+2026-03-08 07:30:08 - sentryflow - WARNING - Action blocked | action_id=32 | reason=Suspicious patterns detected: drop, delete | Judge determined action is unsafe | User role not authorized for this tool | severity=CRITICAL | user=user1_3
+2026-03-08 07:30:08 - sentryflow - INFO - Action processed | action_id=32 | decision=BLOCKED | risk_score=100 | user=user1_3 | tool=drop_student_marks_table
+2026-03-08 07:31:55 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-08 07:31:55 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 07:35:12 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.tool_usage_stats' doesn't exist | Context: Database operation failed
+2026-03-08 07:35:12 - sentryflow - ERROR - Error occurred: 1146 (42S02): Table 'sentryflow.high_risk_actions' doesn't exist | Context: Database operation failed
+2026-03-08 07:51:04 - sentryflow - INFO - Processing prompt | username=user1_3 | prompt_length=30
+2026-03-08 07:51:44 - sentryflow - INFO - Agent decision made | tool=create_table_usn | prompt_length=30
+2026-03-08 07:51:44 - sentryflow - WARNING - Tool not registered | tool_name=create_table_usn
+2026-03-08 07:51:44 - sentryflow - INFO - Tool created | tool_id=25 | tool_name=create_table_usn | category=database
+2026-03-08 07:51:44 - sentryflow - INFO - Policy created | tool_id=25 | max_risk=30 | allowed_roles=['Admin', 'Employee']
+2026-03-08 07:51:44 - sentryflow - WARNING - Role violation | username=user1_3 | role=admin | tool=create_table_usn
+2026-03-08 07:51:44 - sentryflow - INFO - Action processed | action_id=33 | decision=ESCALATED | risk_score=40 | user=user1_3 | tool=create_table_usn
+2026-03-08 07:51:44 - sentryflow - ERROR - Error occurred: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | Context: Database operation failed
+2026-03-08 07:51:44 - sentryflow - ERROR - Failed to log risk breakdown: 1054 (42S22): Unknown column 'prompt_injection_score' in 'field list' | action_id=33
+2026-03-08 07:51:44 - sentryflow - INFO - Action processed | action_id=33 | decision=ESCALATED | risk_score=40 | user=user1_3 | tool=create_table_usn
